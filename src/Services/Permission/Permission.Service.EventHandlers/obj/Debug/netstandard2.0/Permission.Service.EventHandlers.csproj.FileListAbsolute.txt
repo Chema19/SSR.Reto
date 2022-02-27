@@ -1,0 +1,9 @@
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Service.EventHandlers\bin\Debug\netstandard2.0\Permission.Service.EventHandlers.deps.json
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Service.EventHandlers\bin\Debug\netstandard2.0\Permission.Service.EventHandlers.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Service.EventHandlers\bin\Debug\netstandard2.0\Permission.Service.EventHandlers.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Service.EventHandlers\obj\Debug\netstandard2.0\Permission.Service.EventHandlers.csprojAssemblyReference.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Service.EventHandlers\obj\Debug\netstandard2.0\Permission.Service.EventHandlers.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Service.EventHandlers\obj\Debug\netstandard2.0\Permission.Service.EventHandlers.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Service.EventHandlers\obj\Debug\netstandard2.0\Permission.Service.EventHandlers.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Service.EventHandlers\obj\Debug\netstandard2.0\Permission.Service.EventHandlers.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Service.EventHandlers\obj\Debug\netstandard2.0\Permission.Service.EventHandlers.pdb

@@ -1,0 +1,12 @@
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Persistence.Database\bin\Debug\netstandard2.0\Permission.Domain.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Persistence.Database\obj\Debug\netstandard2.0\Permission.Persistence.Database.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Persistence.Database\obj\Debug\netstandard2.0\Permission.Persistence.Database.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Persistence.Database\obj\Debug\netstandard2.0\Permission.Persistence.Database.csprojAssemblyReference.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Persistence.Database\bin\Debug\netstandard2.0\Permission.Persistence.Database.deps.json
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Persistence.Database\bin\Debug\netstandard2.0\Permission.Persistence.Database.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Persistence.Database\bin\Debug\netstandard2.0\Permission.Persistence.Database.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Persistence.Database\bin\Debug\netstandard2.0\Permission.Domain.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Persistence.Database\obj\Debug\netstandard2.0\Permission.Persistence.Database.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Persistence.Database\obj\Debug\netstandard2.0\Permission.Persistence.Database.csproj.CopyComplete
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Persistence.Database\obj\Debug\netstandard2.0\Permission.Persistence.Database.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Persistence.Database\obj\Debug\netstandard2.0\Permission.Persistence.Database.pdb

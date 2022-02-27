@@ -1,0 +1,9 @@
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Domain\bin\Debug\netstandard2.0\Permission.Domain.deps.json
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Domain\bin\Debug\netstandard2.0\Permission.Domain.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Domain\bin\Debug\netstandard2.0\Permission.Domain.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Domain\obj\Debug\netstandard2.0\Permission.Domain.csprojAssemblyReference.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Domain\obj\Debug\netstandard2.0\Permission.Domain.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Domain\obj\Debug\netstandard2.0\Permission.Domain.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Domain\obj\Debug\netstandard2.0\Permission.Domain.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Domain\obj\Debug\netstandard2.0\Permission.Domain.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Domain\obj\Debug\netstandard2.0\Permission.Domain.pdb

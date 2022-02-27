@@ -1,0 +1,9 @@
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Service.Queries\bin\Debug\netstandard2.0\Permission.Service.Queries.deps.json
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Service.Queries\bin\Debug\netstandard2.0\Permission.Service.Queries.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Service.Queries\bin\Debug\netstandard2.0\Permission.Service.Queries.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Service.Queries\obj\Debug\netstandard2.0\Permission.Service.Queries.csprojAssemblyReference.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Service.Queries\obj\Debug\netstandard2.0\Permission.Service.Queries.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Service.Queries\obj\Debug\netstandard2.0\Permission.Service.Queries.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Service.Queries\obj\Debug\netstandard2.0\Permission.Service.Queries.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Service.Queries\obj\Debug\netstandard2.0\Permission.Service.Queries.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Service.Queries\obj\Debug\netstandard2.0\Permission.Service.Queries.pdb

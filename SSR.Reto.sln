@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Clients", "01.Clients", "{BC8F7315-1686-4911-859C-8D416025C62D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.ApiGateways", "02.ApiGateways", "{F8090583-6829-454D-A187-50BDDE5FE397}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Services", "03.Services", "{17BCE6EF-0D61-4FDC-AD8D-4DC1A24BD46B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Permission", "01.Permission", "{2C0BA9BC-FE2F-4729-889B-CC5E48C5F646}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.API", "01.API", "{A07952B3-8853-41DB-A738-9EEAD55E3B15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Services", "02.Services", "{1792C0E3-6C69-49DF-B1C1-705C56DF4D5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Persistence", "03.Persistence", "{53712F32-8D4A-4356-B73E-AEA27B0353D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Models", "04.Models", "{5508B0D0-AFB5-4056-8151-4372B5E9AAFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permission.Domain", "src\Services\Permission\Permission.Domain\Permission.Domain.csproj", "{780259C0-0D6A-4CD2-A8BC-10D9F28E6E72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permission.Api", "src\Services\Permission\Permission.Api\Permission.Api.csproj", "{FE888FDD-4E87-4B22-A65D-00A4FD6E6560}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permission.Service.EventHandlers", "src\Services\Permission\Permission.Service.EventHandlers\Permission.Service.EventHandlers.csproj", "{98AD96A4-35AB-4623-AE78-0AC77415402A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permission.Service.Queries", "src\Services\Permission\Permission.Service.Queries\Permission.Service.Queries.csproj", "{101E43FD-1A2C-4B0E-9E1B-7E53B3D5DFD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permission.Persistence.Database", "src\Services\Permission\Permission.Persistence.Database\Permission.Persistence.Database.csproj", "{5FCEA97B-9A3A-4E7E-9659-0C448BA4FDC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{780259C0-0D6A-4CD2-A8BC-10D9F28E6E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{780259C0-0D6A-4CD2-A8BC-10D9F28E6E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{780259C0-0D6A-4CD2-A8BC-10D9F28E6E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{780259C0-0D6A-4CD2-A8BC-10D9F28E6E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE888FDD-4E87-4B22-A65D-00A4FD6E6560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE888FDD-4E87-4B22-A65D-00A4FD6E6560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE888FDD-4E87-4B22-A65D-00A4FD6E6560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE888FDD-4E87-4B22-A65D-00A4FD6E6560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98AD96A4-35AB-4623-AE78-0AC77415402A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98AD96A4-35AB-4623-AE78-0AC77415402A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98AD96A4-35AB-4623-AE78-0AC77415402A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98AD96A4-35AB-4623-AE78-0AC77415402A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101E43FD-1A2C-4B0E-9E1B-7E53B3D5DFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101E43FD-1A2C-4B0E-9E1B-7E53B3D5DFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101E43FD-1A2C-4B0E-9E1B-7E53B3D5DFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101E43FD-1A2C-4B0E-9E1B-7E53B3D5DFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FCEA97B-9A3A-4E7E-9659-0C448BA4FDC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FCEA97B-9A3A-4E7E-9659-0C448BA4FDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FCEA97B-9A3A-4E7E-9659-0C448BA4FDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FCEA97B-9A3A-4E7E-9659-0C448BA4FDC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C0BA9BC-FE2F-4729-889B-CC5E48C5F646} = {17BCE6EF-0D61-4FDC-AD8D-4DC1A24BD46B}
+		{A07952B3-8853-41DB-A738-9EEAD55E3B15} = {2C0BA9BC-FE2F-4729-889B-CC5E48C5F646}
+		{1792C0E3-6C69-49DF-B1C1-705C56DF4D5A} = {2C0BA9BC-FE2F-4729-889B-CC5E48C5F646}
+		{53712F32-8D4A-4356-B73E-AEA27B0353D1} = {2C0BA9BC-FE2F-4729-889B-CC5E48C5F646}
+		{5508B0D0-AFB5-4056-8151-4372B5E9AAFE} = {2C0BA9BC-FE2F-4729-889B-CC5E48C5F646}
+		{780259C0-0D6A-4CD2-A8BC-10D9F28E6E72} = {5508B0D0-AFB5-4056-8151-4372B5E9AAFE}
+		{FE888FDD-4E87-4B22-A65D-00A4FD6E6560} = {A07952B3-8853-41DB-A738-9EEAD55E3B15}
+		{98AD96A4-35AB-4623-AE78-0AC77415402A} = {1792C0E3-6C69-49DF-B1C1-705C56DF4D5A}
+		{101E43FD-1A2C-4B0E-9E1B-7E53B3D5DFD9} = {1792C0E3-6C69-49DF-B1C1-705C56DF4D5A}
+		{5FCEA97B-9A3A-4E7E-9659-0C448BA4FDC4} = {53712F32-8D4A-4356-B73E-AEA27B0353D1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4BD4B4B-FC0B-431D-BD49-25BD38F24868}
+	EndGlobalSection
+EndGlobal
