@@ -32,21 +32,16 @@ namespace Permission.Persistence.Database.Migrations
                         .HasColumnType("nvarchar(1000)")
                         .HasMaxLength(1000);
 
-                    b.Property<int?>("PermissionsPermissionType")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
                     b.HasIndex("Id");
-
-                    b.HasIndex("PermissionsPermissionType");
 
                     b.ToTable("PermissionTypess");
                 });
 
             modelBuilder.Entity("Permission.Domain.Permissions", b =>
                 {
-                    b.Property<int>("PermissionType")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -61,24 +56,29 @@ namespace Permission.Persistence.Database.Migrations
                         .HasColumnType("nvarchar(500)")
                         .HasMaxLength(500);
 
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("PermissionDate")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("PermissionType");
+                    b.Property<int>("PermissionType")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("PermissionTypesId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
 
                     b.HasIndex("Id");
+
+                    b.HasIndex("PermissionTypesId");
 
                     b.ToTable("Permissionss");
                 });
 
-            modelBuilder.Entity("Permission.Domain.PermissionTypes", b =>
+            modelBuilder.Entity("Permission.Domain.Permissions", b =>
                 {
-                    b.HasOne("Permission.Domain.Permissions", "Permissions")
-                        .WithMany()
-                        .HasForeignKey("PermissionsPermissionType");
+                    b.HasOne("Permission.Domain.PermissionTypes", "PermissionTypes")
+                        .WithMany("Permissionss")
+                        .HasForeignKey("PermissionTypesId");
                 });
 #pragma warning restore 612, 618
         }

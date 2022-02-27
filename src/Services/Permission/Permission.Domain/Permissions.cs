@@ -8,6 +8,7 @@ namespace Permission.Domain
         public string EmployeeForename { set; get; }
         public string EmployeeSurname { set; get; }
         public int PermissionType { set; get; }
+        public PermissionTypes PermissionTypes { set; get; }
         public DateTime PermissionDate { set; get; }
     }
 }

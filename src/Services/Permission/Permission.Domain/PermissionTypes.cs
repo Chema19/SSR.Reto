@@ -8,6 +8,6 @@ namespace Permission.Domain
     {
         public int Id { set; get; }
         public string Description { set; get; }
-        public Permissions Permissions { set; get; }
+        public List<Permissions> Permissionss { set; get; }
     }
 }
