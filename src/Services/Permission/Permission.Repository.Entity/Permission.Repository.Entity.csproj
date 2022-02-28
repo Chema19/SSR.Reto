@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Permission.Domain\Permission.Domain.csproj" />
+    <ProjectReference Include="..\Permission.Persistence.Database\Permission.Persistence.Database.csproj" />
+  </ItemGroup>
+
+</Project>

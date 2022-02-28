@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -11,6 +13,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Permission.Persistence.Database;
+using Permission.Repository.Entity.Configuration;
+using Permission.Repository.Entity.IConfiguration;
+using Permission.Service.Queries;
 
 namespace Permission.Api
 {
@@ -32,7 +37,9 @@ namespace Permission.Api
                         x => x.MigrationsHistoryTable("_EFMigrationsHistory", "Permission")
                     )
             );
-
+            services.AddTransient<IPermissionQueryService, PermissionQueryService>();
+            services.AddMediatR(Assembly.Load("Permission.Service.EventHandlers"));
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllers();
         }
 

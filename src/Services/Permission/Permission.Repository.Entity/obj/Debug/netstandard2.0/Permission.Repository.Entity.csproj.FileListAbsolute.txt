@@ -1,0 +1,14 @@
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Repository.Entity\bin\Debug\netstandard2.0\Permission.Repository.Entity.deps.json
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Repository.Entity\bin\Debug\netstandard2.0\Permission.Repository.Entity.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Repository.Entity\bin\Debug\netstandard2.0\Permission.Repository.Entity.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Repository.Entity\bin\Debug\netstandard2.0\Permission.Domain.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Repository.Entity\bin\Debug\netstandard2.0\Permission.Persistence.Database.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Repository.Entity\bin\Debug\netstandard2.0\Permission.Domain.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Repository.Entity\bin\Debug\netstandard2.0\Permission.Persistence.Database.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Repository.Entity\obj\Debug\netstandard2.0\Permission.Repository.Entity.csprojAssemblyReference.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Repository.Entity\obj\Debug\netstandard2.0\Permission.Repository.Entity.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Repository.Entity\obj\Debug\netstandard2.0\Permission.Repository.Entity.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Repository.Entity\obj\Debug\netstandard2.0\Permission.Repository.Entity.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Repository.Entity\obj\Debug\netstandard2.0\Permission.Repository.Entity.csproj.CopyComplete
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Repository.Entity\obj\Debug\netstandard2.0\Permission.Repository.Entity.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Repository.Entity\obj\Debug\netstandard2.0\Permission.Repository.Entity.pdb

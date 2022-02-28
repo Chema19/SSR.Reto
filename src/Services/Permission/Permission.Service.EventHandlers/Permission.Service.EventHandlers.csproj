@@ -4,4 +4,13 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Permission.Persistence.Database\Permission.Persistence.Database.csproj" />
+    <ProjectReference Include="..\Permission.Repository.Entity\Permission.Repository.Entity.csproj" />
+  </ItemGroup>
+
 </Project>

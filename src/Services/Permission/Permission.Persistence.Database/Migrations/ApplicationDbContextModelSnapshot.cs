@@ -62,14 +62,11 @@ namespace Permission.Persistence.Database.Migrations
                     b.Property<int>("PermissionType")
                         .HasColumnType("int");
 
-                    b.Property<int?>("PermissionTypesId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
                     b.HasIndex("Id");
 
-                    b.HasIndex("PermissionTypesId");
+                    b.HasIndex("PermissionType");
 
                     b.ToTable("Permissionss");
                 });
@@ -78,7 +75,9 @@ namespace Permission.Persistence.Database.Migrations
                 {
                     b.HasOne("Permission.Domain.PermissionTypes", "PermissionTypes")
                         .WithMany("Permissionss")
-                        .HasForeignKey("PermissionTypesId");
+                        .HasForeignKey("PermissionType")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

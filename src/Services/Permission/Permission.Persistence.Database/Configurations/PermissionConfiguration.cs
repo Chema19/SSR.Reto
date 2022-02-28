@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Permission.Domain;
 using System;
 using System.Collections.Generic;
@@ -13,8 +14,13 @@ namespace Permission.Persistence.Database.Configurations
             entityBuilder.HasIndex(x => x.Id);
             entityBuilder.Property(x => x.EmployeeForename).IsRequired().HasMaxLength(500);
             entityBuilder.Property(x => x.EmployeeSurname).IsRequired().HasMaxLength(500);
-            entityBuilder.Property(x => x.PermissionType).IsRequired();
+            //entityBuilder.Property(x => x.PermissionType).IsRequired();
             entityBuilder.Property(x => x.PermissionDate).IsRequired();
+
+            entityBuilder.HasOne(x => x.PermissionTypes)
+                        .WithMany(x => x.Permissionss)
+                        .HasForeignKey(x => x.PermissionType)
+                        .IsRequired();
         }
     }
 }

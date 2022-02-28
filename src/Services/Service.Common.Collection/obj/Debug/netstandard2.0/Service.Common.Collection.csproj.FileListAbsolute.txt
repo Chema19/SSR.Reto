@@ -1,0 +1,9 @@
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Service.Common.Collection\bin\Debug\netstandard2.0\Service.Common.Collection.deps.json
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Service.Common.Collection\bin\Debug\netstandard2.0\Service.Common.Collection.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Service.Common.Collection\bin\Debug\netstandard2.0\Service.Common.Collection.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Service.Common.Collection\obj\Debug\netstandard2.0\Service.Common.Collection.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Service.Common.Collection\obj\Debug\netstandard2.0\Service.Common.Collection.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Service.Common.Collection\obj\Debug\netstandard2.0\Service.Common.Collection.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Service.Common.Collection\obj\Debug\netstandard2.0\Service.Common.Collection.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Service.Common.Collection\obj\Debug\netstandard2.0\Service.Common.Collection.csprojAssemblyReference.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Service.Common.Collection\obj\Debug\netstandard2.0\Service.Common.Collection.csproj.CoreCompileInputs.cache

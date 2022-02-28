@@ -4,4 +4,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Service.Common.Collection\Service.Common.Collection.csproj" />
+    <ProjectReference Include="..\..\Service.Common.Mapping\Service.Common.Mapping.csproj" />
+    <ProjectReference Include="..\..\Service.Common.Paging\Service.Common.Paging.csproj" />
+    <ProjectReference Include="..\Permission.Persistence.Database\Permission.Persistence.Database.csproj" />
+    <ProjectReference Include="..\Permission.Repository.Entity\Permission.Repository.Entity.csproj" />
+  </ItemGroup>
+
 </Project>
