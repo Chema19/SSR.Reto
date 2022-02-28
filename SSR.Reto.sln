@@ -45,6 +45,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.Testing", "06.Testing", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permission.Test", "src\Services\Permission\Permission.Test\Permission.Test.csproj", "{3C9121CB-61F6-47BB-8EB5-F92ABCF65BC2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.Publish", "07.Publish", "{92335B9F-4B83-40CA-88C6-E47C9BA90A1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permission.TestPublish", "src\Services\Permission\Permission.TestPublish\Permission.TestPublish.csproj", "{E7356D73-5CDA-4828-A2A9-EB4140A24413}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +95,10 @@ Global
 		{3C9121CB-61F6-47BB-8EB5-F92ABCF65BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C9121CB-61F6-47BB-8EB5-F92ABCF65BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C9121CB-61F6-47BB-8EB5-F92ABCF65BC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7356D73-5CDA-4828-A2A9-EB4140A24413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7356D73-5CDA-4828-A2A9-EB4140A24413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7356D73-5CDA-4828-A2A9-EB4140A24413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7356D73-5CDA-4828-A2A9-EB4140A24413}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,6 +122,8 @@ Global
 		{79A93136-D34D-4A4E-B7B3-EBE731E7D9AE} = {E1388C75-F15A-47AE-803C-37877FD430AB}
 		{F0C85EBB-7713-46C2-97E9-4C5CA6333CE4} = {2C0BA9BC-FE2F-4729-889B-CC5E48C5F646}
 		{3C9121CB-61F6-47BB-8EB5-F92ABCF65BC2} = {F0C85EBB-7713-46C2-97E9-4C5CA6333CE4}
+		{92335B9F-4B83-40CA-88C6-E47C9BA90A1D} = {2C0BA9BC-FE2F-4729-889B-CC5E48C5F646}
+		{E7356D73-5CDA-4828-A2A9-EB4140A24413} = {A07952B3-8853-41DB-A738-9EEAD55E3B15}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A4BD4B4B-FC0B-431D-BD49-25BD38F24868}
