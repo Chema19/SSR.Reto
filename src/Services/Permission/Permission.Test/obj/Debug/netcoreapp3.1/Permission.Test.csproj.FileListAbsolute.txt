@@ -135,3 +135,14 @@ C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Test\b
 C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Test\bin\Debug\netcoreapp3.1\Permission.Repository.Entity.pdb
 C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Test\obj\Debug\netcoreapp3.1\Permission.Test.dll
 C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Test\obj\Debug\netcoreapp3.1\Permission.Test.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Test\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Test\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Test\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Test\bin\Debug\netcoreapp3.1\Permission.Service.Queries.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Test\bin\Debug\netcoreapp3.1\Service.Common.Collection.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Test\bin\Debug\netcoreapp3.1\Service.Common.Mapping.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Test\bin\Debug\netcoreapp3.1\Service.Common.Paging.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Test\bin\Debug\netcoreapp3.1\Permission.Service.Queries.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Test\bin\Debug\netcoreapp3.1\Service.Common.Collection.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Test\bin\Debug\netcoreapp3.1\Service.Common.Mapping.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Test\bin\Debug\netcoreapp3.1\Service.Common.Paging.pdb

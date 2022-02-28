@@ -6,8 +6,10 @@ using Permission.Repository.Entity.Configuration;
 using Permission.Repository.Entity.IConfiguration;
 using Permission.Service.EventHandlers;
 using Permission.Service.EventHandlers.Commands;
+using Permission.Service.Queries;
 using Permission.Test.Config;
 using System;
+using System.Linq;
 using System.Threading;
 
 namespace Permission.Test
@@ -23,8 +25,8 @@ namespace Permission.Test
             var context = ApplicationDbContextInMemory.Get();//BASE DE DATOS EN MEMORIA .... NO AFECTA A LA BASE DE DATOS ORIGINAL POR QUE SE REPLICA EN MEMORIA
             var unitOfWork = new UnitOfWork(context);
 
-            var EmployeeForename = "Rossana Guisela";
-            var Employeesurname = "Villafuerte Garcia";
+            var EmployeeForename = "Add Reto";
+            var Employeesurname = "Test 1";
             var PermissionType = 1;
             var PermissionDate = Convert.ToDateTime("2021-01-01");
 
@@ -43,8 +45,48 @@ namespace Permission.Test
 
             handler.Handle(new PermissionUpdateCommand {
                 Id = permission.Id,
-                EmployeeForename = "Josemaria Alonso",
-                EmployeeSurname = "Inga Villafuerte",
+                EmployeeForename = "Add Reto 2",
+                EmployeeSurname = "Test 1.1",
+                PermissionType = 2,
+                PermissionDate = Convert.ToDateTime("2022-02-27"),
+            }, new CancellationToken()).Wait();
+        }
+
+        [TestMethod]
+        public void GetAllByDatePermission()
+        {
+            var context = ApplicationDbContextInMemory.Get();//BASE DE DATOS EN MEMORIA .... NO AFECTA A LA BASE DE DATOS ORIGINAL POR QUE SE REPLICA EN MEMORIA
+            var unitOfWork = new UnitOfWork(context);
+
+            for (int i=1;i<10;i++)
+            {
+                context.Permissionss.Add(new Permissions
+                {
+                    EmployeeForename = i.ToString(),
+                    EmployeeSurname = i.ToString(),
+                    PermissionType = 1,
+                    PermissionDate = Convert.ToDateTime("2022-02-" + i.ToString())
+                });
+                context.SaveChanges();
+            }
+
+            var queryService = new PermissionQueryService(unitOfWork);
+
+            var result = queryService.GetAsync(5); 
+        }
+
+        [TestMethod]
+        public void AddMultiplePermission()
+        {
+            var context = ApplicationDbContextInMemory.Get();//BASE DE DATOS EN MEMORIA .... NO AFECTA A LA BASE DE DATOS ORIGINAL POR QUE SE REPLICA EN MEMORIA
+            var unitOfWork = new UnitOfWork(context);
+
+            var handler = new PermissionCreateEventHandler(unitOfWork);
+
+            handler.Handle(new PermissionCreateCommand
+            {
+                EmployeeForename = "Add Reto",
+                EmployeeSurname = "Test 3",
                 PermissionType = 2,
                 PermissionDate = Convert.ToDateTime("2022-02-27"),
             }, new CancellationToken()).Wait();

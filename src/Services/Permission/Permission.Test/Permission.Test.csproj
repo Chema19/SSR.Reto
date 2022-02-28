@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Permission.Persistence.Database\Permission.Persistence.Database.csproj" />
     <ProjectReference Include="..\Permission.Service.EventHandlers\Permission.Service.EventHandlers.csproj" />
+    <ProjectReference Include="..\Permission.Service.Queries\Permission.Service.Queries.csproj" />
   </ItemGroup>
 
 </Project>
