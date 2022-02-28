@@ -19,13 +19,13 @@ namespace Permission.Service.Queries
     }
     public class PermissionQueryService : IPermissionQueryService
     {
-        private readonly ApplicationDbContext _context;
+        //private readonly ApplicationDbContext _context;
         private readonly IUnitOfWork _unitOfWork;
         public PermissionQueryService(
-            ApplicationDbContext context,
+           // ApplicationDbContext context,
             IUnitOfWork unitOfWork)
         {
-            _context = context;
+            //_context = context;
             _unitOfWork = unitOfWork;
         }
 
