@@ -1,0 +1,14 @@
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Persistence.Database\bin\Debug\netstandard2.1\Identity.Persistence.Database.deps.json
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Persistence.Database\bin\Debug\netstandard2.1\Identity.Persistence.Database.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Persistence.Database\bin\Debug\netstandard2.1\Identity.Persistence.Database.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Persistence.Database\bin\Debug\netstandard2.1\Identity.Domain.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Persistence.Database\bin\Debug\netstandard2.1\Permission.Domain.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Persistence.Database\bin\Debug\netstandard2.1\Permission.Domain.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Persistence.Database\bin\Debug\netstandard2.1\Identity.Domain.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Persistence.Database\obj\Debug\netstandard2.1\Identity.Persistence.Database.csprojAssemblyReference.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Persistence.Database\obj\Debug\netstandard2.1\Identity.Persistence.Database.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Persistence.Database\obj\Debug\netstandard2.1\Identity.Persistence.Database.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Persistence.Database\obj\Debug\netstandard2.1\Identity.Persistence.Database.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Persistence.Database\obj\Debug\netstandard2.1\Identity.Persistence.Database.csproj.CopyComplete
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Persistence.Database\obj\Debug\netstandard2.1\Identity.Persistence.Database.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Persistence.Database\obj\Debug\netstandard2.1\Identity.Persistence.Database.pdb

@@ -1,0 +1,9 @@
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Domain\bin\Debug\netstandard2.0\Identity.Domain.deps.json
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Domain\bin\Debug\netstandard2.0\Identity.Domain.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Domain\obj\Debug\netstandard2.0\Identity.Domain.csprojAssemblyReference.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Domain\obj\Debug\netstandard2.0\Identity.Domain.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Domain\obj\Debug\netstandard2.0\Identity.Domain.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Domain\bin\Debug\netstandard2.0\Identity.Domain.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Domain\obj\Debug\netstandard2.0\Identity.Domain.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Domain\obj\Debug\netstandard2.0\Identity.Domain.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Domain\obj\Debug\netstandard2.0\Identity.Domain.pdb

@@ -69,3 +69,7 @@ C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Api\ob
 C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Api\obj\Debug\netcoreapp3.1\Permission.Api.genruntimeconfig.cache
 C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Api\bin\Debug\netcoreapp3.1\Permission.Repository.Entity.dll
 C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Api\bin\Debug\netcoreapp3.1\Permission.Repository.Entity.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Api\bin\Debug\netcoreapp3.1\Elasticsearch.Net.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Api\bin\Debug\netcoreapp3.1\Nest.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Api\obj\Debug\netcoreapp3.1\Permission.Api.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Permission\Permission.Api\obj\Debug\netcoreapp3.1\Permission.Api.MvcApplicationPartsAssemblyInfo.cache

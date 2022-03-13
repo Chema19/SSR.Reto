@@ -19,7 +19,7 @@ namespace Permission.Service.Queries
     }
     public class PermissionQueryService : IPermissionQueryService
     {
-        //private readonly ApplicationDbContext _context;
+        private readonly ApplicationDbContext _context;
         private readonly IUnitOfWork _unitOfWork;
         public PermissionQueryService(
            // ApplicationDbContext context,
@@ -53,7 +53,8 @@ namespace Permission.Service.Queries
                 PermissionType = permision.PermissionType,
                 PermissionDate = permision.PermissionDate
             };
-            return result;//.SingleAsync(x => x.Id == id)).MapTo<PermissionsDto>();
+            return result;
+            //.SingleAsync(x => x.Id == id)).MapTo<PermissionsDto>();
             //return (await _context.Permissionss.SingleAsync(x => x.Id == id)).MapTo<PermissionsDto>();
         }
     }

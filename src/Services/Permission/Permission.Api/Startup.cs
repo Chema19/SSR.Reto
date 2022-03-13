@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Permission.Persistence.Database;
@@ -39,6 +40,7 @@ namespace Permission.Api
             );
             services.AddTransient<IPermissionQueryService, PermissionQueryService>();
             services.AddMediatR(Assembly.Load("Permission.Service.EventHandlers"));
+            services.AddHealthChecks().AddCheck("self", () => HealthCheckResult.Healthy()).AddCheck("self2", () => HealthCheckResult.Unhealthy()); ;
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllers();
         }
@@ -57,6 +59,8 @@ namespace Permission.Api
 
             app.UseEndpoints(endpoints =>
             {
+                //COMO EXPONER UN ENDPOINT
+                endpoints.MapHealthChecks("/hc");
                 endpoints.MapControllers();
             });
         }

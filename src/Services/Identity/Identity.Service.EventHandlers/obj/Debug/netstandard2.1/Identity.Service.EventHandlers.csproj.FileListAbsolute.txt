@@ -1,0 +1,8 @@
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Service.EventHandlers\bin\Debug\netstandard2.1\Identity.Service.EventHandlers.deps.json
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Service.EventHandlers\bin\Debug\netstandard2.1\Identity.Service.EventHandlers.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Service.EventHandlers\bin\Debug\netstandard2.1\Identity.Domain.dll
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Service.EventHandlers\bin\Debug\netstandard2.1\Identity.Domain.pdb
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Service.EventHandlers\obj\Debug\netstandard2.1\Identity.Service.EventHandlers.csprojAssemblyReference.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Service.EventHandlers\obj\Debug\netstandard2.1\Identity.Service.EventHandlers.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Service.EventHandlers\obj\Debug\netstandard2.1\Identity.Service.EventHandlers.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\SSR.Reto\src\Services\Identity\Identity.Service.EventHandlers\obj\Debug\netstandard2.1\Identity.Service.EventHandlers.csproj.CopyComplete
